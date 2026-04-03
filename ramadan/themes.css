@@ -1,0 +1,18 @@
+:root {
+  --bg-color: #f5f5f5;
+  --text-color: #222;
+  --card-color: #ffffff;
+  --accent-color: #00aeff;
+}
+
+body.light-theme {
+  --bg-color: #b5d0f2;
+  --text-color: #222;
+  --card-color:  linear-gradient(135deg, #2a5298, #4facfe, #a1c4fd) border-box;
+}
+
+body.dark-theme {
+  --bg-color: #232222;
+  --text-color: #f1f1f1;
+  --card-color:   linear-gradient(135deg, #2c2f30, #4b4e50) border-box;
+}
